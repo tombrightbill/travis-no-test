@@ -3,5 +3,5 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
-  return new Response('Hello from Travis No test!')
+  return new Response('Hello from Travis No tests!')
 }
