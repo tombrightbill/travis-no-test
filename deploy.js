@@ -10,7 +10,7 @@ const deployToCF = async () => {
   	'Content-Type': 'application/javascript'
   }
 
-  const url = `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/workers/scripts/deployed-from-travis`
+  const url = `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID}/workers/scripts/deployed-no-test`
   // NOTE: this is the Enterprise URL, if you are using a self service account the endpoint is:
   // client/v4/zones/:zone_id/workers/script
   try { 
